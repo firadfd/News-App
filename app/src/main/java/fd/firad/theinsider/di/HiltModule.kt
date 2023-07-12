@@ -14,7 +14,6 @@ import javax.inject.Singleton
 @InstallIn(SingletonComponent::class)
 object HiltModule {
 
-
     @Provides
     fun provideBaseUrl() = Util.BASE_URL
 
